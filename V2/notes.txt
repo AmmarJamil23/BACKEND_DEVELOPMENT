@@ -1,0 +1,20 @@
+Node js is not a language, certainly not a technology,
+not a framework, not a library, it is javascript runtime
+environment. 
+During the start, We cannot create backend using javascript because javascript
+does have the functionality required for backend.
+Then came Ryan Dahl who thought  that js should be used for
+backend. The google chrome v8 engine source code is open source
+and Ryan Dahl is trying to use that code to make backend using js.
+Then he thought that we need to code in js. 
+Ryan Dahl wrapped the V8 engine code(C++) with js code. 
+We will write js code which will recieve wrapper layer js code and that code
+will create a server with the V8 engine c++ module. This whole
+V8 engine source code being wrapped by js is Nodejs.
+
+Node js is a js runtime environment. We can create server using
+node js.
+
+npm => it is a library where we can find already developed modules
+ready for use.
+npm init => package.json
