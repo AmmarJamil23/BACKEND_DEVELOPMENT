@@ -1,0 +1,20 @@
+
+To handle backend process of forms and making sure the data
+coming from any frontend lib, fw, templating engines, we still
+handdle it in the backend.
+
+
+session cookie:
+
+we can place any data on the frontend or browser . if we do
+request backend then that saved data will go to the backend
+automatically. We use it mainly for login authentication and 
+keep the user login even if they go on our application after
+some time. the time between login and logout is called a 
+session.
+
+
+
+blob is unreadable stream
+we send plain text but the server recieved blob which is not directly readable
+now we have to handle that we can make that blob readable
