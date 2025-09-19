@@ -1,0 +1,16 @@
+Data Storage:
+TYPES OF DBS -SQL | NOSQL
+
+SQL => Data is stored in a combination of rows and columns / tables
+
+NoSQL => data is in the form of objects 
+like {
+    name: "ABC",
+    age: "25"
+}
+
+The most used NoSQL base is => MongoDB
+
+what is id => 1- first 3-4 bytes they tell the time stamp
+2 - 
+
