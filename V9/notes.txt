@@ -1,0 +1,39 @@
+authentication and authorization
+
+=> before giving a profile to user we have to check who is the user. this is called authentication means to validate user.
+
+=> authorized to perform some tasks which are only allowed to be executed by the administrator. It performs that which operation can a user perform and which they cannot perform.
+
+server forgets everytime who you are so the server forgets who you are so to perform eevery task the server will aks you who you are.
+cookie and sessions come to to solve this.
+
+cookie purpose is to store data on the browser from the server.
+
+In Node.js with Express.js, a cookie is a small piece of data stored in the user's browser and sent back to the server with every request. Cookies are mainly used for:
+
+Session management (e.g., login authentication, remembering a logged-in user).
+
+Personalization (e.g., storing user preferences, theme settings).
+
+Tracking (e.g., analytics, user behavior).
+
+How cookies work
+
+Server sets a cookie: The server sends a Set-Cookie header in the HTTP response.
+
+Browser stores it: The client’s browser saves the cookie.
+
+Browser sends cookie back: On each request to the same domain, the browser includes the cookie in the request headers (Cookie header).
+
+Server reads it: The server can read the cookie value and use it.
+
+=>  first we have to learn some things 
+1 - how to set cookies.
+2 - how to use bcrypt for passwords encryption and decryption
+3 - what is JWT and how to store data in JWT and use it.
+
+
+
+bcrypt
+
+
