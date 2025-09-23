@@ -1,0 +1,12 @@
+install express, ejs, jsonwebtoken, bcrypt,
+cookie-parser, mongoose, nodemon
+
+
+
+
+user can write post 
+users can login and register
+user can logout
+user can create posts
+user can post likes
+users can delete post (author)
