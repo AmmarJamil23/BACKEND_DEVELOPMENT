@@ -1,0 +1,27 @@
+What is a middleware?
+=> It is a function that runs between the incoming HTTP request and
+final route logic.
+It us a checkpoint or filter that can: 
+1- Read or modify the request(req)
+2- Add new properties to It
+3- Stop the request for example for authentication.
+4- or allow it to continue to the next step(next())
+It sits in the middle of the request-response flow.
+
+app.use()
+=> This is a method to load any middleware in express
+syntax => app.use(myCustomMiddleware)
+
+express.json()
+=> It loads express built-in middleware that parses incoming
+JSON data from the request body.
+SO when we send data like: 
+{
+    "name": "abc",
+    "hobby": "cricket"
+}
+in thunder client post method. express.json() reads it, converts
+it into a Javascript object, and attaches it to req.body. SO
+inside out route we can do this:
+console.log(req.body.name)
+Without it req.body will be undefined.
